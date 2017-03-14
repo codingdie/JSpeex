@@ -24,7 +24,7 @@ jar {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifact 'release/jspeex.jar' // Publish a file created outside of the build
+            artifact 'release/jspeex-1.0.0.jar' // Publish a file created outside of the build
         }
     }
 }
