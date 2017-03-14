@@ -24,7 +24,7 @@ jar {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifact 'release/tls_sig_api.jar' // Publish a file created outside of the build
+            artifact 'release/jspeex.jar' // Publish a file created outside of the build
         }
     }
 }
