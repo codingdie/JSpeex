@@ -1,0 +1,30 @@
+group 'com.codingdie'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+sourceCompatibility = 1.5
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+jar {
+    baseName = 'jspeex'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            artifact 'release/tls_sig_api.jar' // Publish a file created outside of the build
+        }
+    }
+}
