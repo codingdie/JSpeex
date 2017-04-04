@@ -34,4 +34,4 @@ or import with maven
 </dependency>
 ``` 
 use as like this:  
- SpeexUtils.decode("/Users/xupeng/Documents/test2.speex", "/Users/xupeng/Documents/test10.wav");
+    SpeexUtils.decode("/Users/xupeng/Documents/test2.speex", "/Users/xupeng/Documents/test10.wav");
