@@ -1,5 +1,6 @@
 # JSpeex
-A Java Library use jni to decode *.speex to *.wav   
+A Java Library use jni to decode *.speex to *.wav in pc 
+first install libspeex,then git cloen this project,cd release folder .  
 linux:  
 1,make -f makefile-linux</br>
 2,make -f makefile-linux install</br>
